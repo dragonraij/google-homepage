@@ -1,5 +1,5 @@
 div{
-	background-color: white;
+	
 	}
 
 body {
@@ -16,7 +16,8 @@ body {
 p,a{
 	text-decoration: none;
 	font-family: sans-serif;
-	font-color:gray;
+	font-color:#ACACA8;
+	padding: 5px;
 }
 a:hover{
 	text-decoration: underline;
@@ -43,5 +44,24 @@ a:hover{
 #footer{
 	position: fixed;
 	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: #F5F5F0;
+}
+
+#footerleft{
+	float: left;
+	padding: 20px;
+
+}
+
+#footerright{
+	float: right;
+	padding: 20px;
+}
+
+form, input{
 	width: 100%;
 }
+
+p a{font-color:blue;}
