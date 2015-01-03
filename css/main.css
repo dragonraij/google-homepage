@@ -2,9 +2,7 @@ div{
 	
 	}
 
-body {
-    background-color: #b0c4de;
-}
+
 
 #page{
 	position: fixed;
@@ -33,13 +31,17 @@ a:hover{
 
 }
 
+#header img{
+	vertical-align: middle;
+	font-color:yellow;
+}
+
 #body{
 	width: 50%;
 	height:50%;
 	top: 25%;
 	margin: 0 auto;
 	position: relative;
-	background-color: yellow;
 }
 #footer{
 	position: fixed;
@@ -65,3 +67,27 @@ form, input{
 }
 
 p a{font-color:blue;}
+
+input{
+	height:25px;
+	width: 456px;
+	border-width: 3px;
+}
+
+button{
+	width: 150px;
+	height:25px;
+	margin: 5px auto;
+}
+
+#body p {
+	margin: 0 150px;
+}
+
+#body div {
+	margin: 0 100px;
+}
+
+#buttons{
+	margin: 150px;
+}
